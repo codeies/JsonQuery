@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": "^7.0"
+        "php": "^7.4"
     },
     "autoload": {
         "psr-4": {
@@ -23,6 +23,6 @@
             "url": "https://github.com/codeies/JsonQuery"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }

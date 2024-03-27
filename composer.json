@@ -1,0 +1,5 @@
+{
+    "require": {
+        "codeies/json-query": "^1.0"
+    }
+}

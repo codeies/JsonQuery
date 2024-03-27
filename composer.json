@@ -1,5 +1,22 @@
 {
+    "name": "codeies/json-query",
+    "description": "PHP class for performing MySQL-like queries on JSON data.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhammad Junaid",
+            "email": "itzmjunaid@gmail.com"
+        }
+    ],
     "require": {
-        "codeies/json-query": "^1.0"
-    }
+        "php": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Codeies\\JsonQuery\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }

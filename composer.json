@@ -22,7 +22,7 @@
             "type": "vcs",
             "url": "https://github.com/codeies/JsonQuery"
         }
-    ]
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true
 }

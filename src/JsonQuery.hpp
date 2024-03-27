@@ -1,4 +1,5 @@
 <?php
+namespace Codeies\JsonQuery;
 class JsonQuery {
     private $data;
     private $filteredData;

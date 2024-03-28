@@ -1,13 +1,15 @@
-<?php
-namespace Codeies\JsonQuery;
 class JsonQuery {
     private $data;
     private $filteredData;
 
-    public function __construct($jsonFilePath) {
-        $jsonData = file_get_contents($jsonFilePath);
+    public function __construct($jsonData) {
         $this->data = json_decode($jsonData, true);
         $this->filteredData = $this->data;
+    }
+
+    public static function fromFile($jsonFilePath) {
+        $jsonData = file_get_contents($jsonFilePath);
+        return new self($jsonData);
     }
 
     public function find($value) {
